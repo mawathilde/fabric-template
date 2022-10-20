@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+  "name": "Template Mod",
+  "authors": [
+    "mawathilde"
+  ],
+  "contact": {
+    "sources": "https://github.com/mawathilde/fabric-template"
+  },
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.mawathilde.template.TemplateMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
